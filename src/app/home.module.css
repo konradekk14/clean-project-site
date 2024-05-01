@@ -37,6 +37,10 @@
     font-weight: 300;
 }
 
+.button:hover {
+    transform: scale(1.05); 
+  }
+
 .button:first-child {
     background-color: #44576D;
 }
