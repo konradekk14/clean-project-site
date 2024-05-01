@@ -1,6 +1,8 @@
+
 import Content from "./content/page"
 import Footer from "./footer/page"
 import styles from "./home.module.css"
+import React from "react"
 
 const Home = () => {
   return (
@@ -9,20 +11,15 @@ const Home = () => {
       <h3 className={styles.subtitle}>the minimalist programming language</h3>
 
       <div className={styles.buttons}>
-        <a href="https://github.com" className={styles.button} target="_blank" rel="noopener noreferrer">github</a>
-        <button className={styles.button}>download</button>
+        <a href="https://github.com/konradekk14/clean-project" className={styles.button} target="_blank" rel="noopener noreferrer">github</a>
+        <a className={styles.button} download href="./interpeter.py">download</a>
       </div>
 
       <Content />
       <Footer />
     </div>
   )
-}
+};
 
 export default Home
 
-
-export const metadata = {
-  title: "clean.",
-  description: "the clean. programming lang",
-}
