@@ -14,7 +14,6 @@ const Home = () => {
         <a href="https://github.com/konradekk14/clean-project" className={styles.button} target="_blank" rel="noopener noreferrer">github</a>
         <a className={styles.button} download href="./interpeter.py">download</a>
       </div>
-
       <Content />
       <Footer />
     </div>
