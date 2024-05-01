@@ -20,3 +20,9 @@ const Home = () => {
 }
 
 export default Home
+
+
+export const metadata = {
+  title: "clean.",
+  description: "the clean. programming lang",
+}

@@ -2,7 +2,6 @@
 const nextConfig = {
     output: 'export',
     distDir: 'dist',
-    title: 'clean.'
 };
 
 export default nextConfig;
