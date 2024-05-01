@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 96px;
+    font-weight: 400;
+}
+
+.subtitle{
+    font-weight: 300;
+}
+
+.buttons {
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
+.button {
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    cursor: pointer;
+    min-width: 120px;
+    border: none;
+    border-radius: none;
+    background-color: rgb(81, 81, 81);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.button:first-child {
+    background-color: #44576D;
+}
+
