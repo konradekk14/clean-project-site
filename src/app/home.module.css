@@ -41,3 +41,17 @@
     background-color: #44576D;
 }
 
+
+@media (max-width: 1024px) {
+    .subtitle {
+        width: 90%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .subtitle {
+        width: 90%;
+        text-align: center;
+    }
+}
